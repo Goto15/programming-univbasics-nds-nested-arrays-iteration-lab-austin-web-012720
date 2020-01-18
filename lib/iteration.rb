@@ -19,7 +19,8 @@ end
 def total_even_pairs(src)
   even_pairs = []
   for each in src do
-    even_pairs.push(sum(src[0], src[1]))
+    sum = src[0]+src[1]
+    even_pairs.push(sum)
   end
   
   return even_pairs
