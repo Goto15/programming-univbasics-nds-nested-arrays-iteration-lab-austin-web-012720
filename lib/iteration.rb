@@ -18,7 +18,7 @@ end
 
 def total_even_pairs(src)
   temp_sum = 0
-  puts src
+  puts src[0]
   for each in src do
     for num in each do
       if ((num % 2) == 0)
