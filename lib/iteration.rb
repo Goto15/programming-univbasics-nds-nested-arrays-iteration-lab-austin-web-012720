@@ -20,11 +20,7 @@ def total_even_pairs(src)
   temp_sum = 0
   puts src[0]
   for each in src do
-    for num in each do
-      if ((num % 2) == 0)
-        temp_sum += num
-      end
-    end
+    if
   end
   
   return temp_sum
