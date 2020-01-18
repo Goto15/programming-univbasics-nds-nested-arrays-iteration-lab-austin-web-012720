@@ -20,7 +20,9 @@ def total_even_pairs(src)
   temp_sum = 0
   puts src[0]
   for each in src do
-    if
+    if(each[0].even && each[1].even)
+      temp_sum += (each[0] + each[1])
+    end
   end
   
   return temp_sum
