@@ -17,11 +17,14 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  even_pairs = []
+  temp_sum = 0
   for each in src do
-    sum = src[0]+src[1]
-    even_pairs.push(sum)
+    for num in each do
+      if ((num % 2) == 0)
+        temp_sum += num
+      end
+    end
   end
   
-  return even_pairs
+  return temp_sum
 end
