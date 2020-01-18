@@ -19,7 +19,7 @@ end
 def total_even_pairs(src)
   even_pairs = []
   for each in src do
-    if((src[0] % 2 == 0) && (src[1] % 2 == 0 ))
+    if((src[0]%2 == 0) && (src[1] % 2 == 0 ))
       even_pairs.push(each)
     end
   end
